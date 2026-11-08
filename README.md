@@ -38,7 +38,7 @@ Keep SKU-9325. Dropping it would cost €112,039 more in margin each year than i
 
  SKU-9325 alone represents only 1.4% of revenue, so dropping it looks like a cheap cut. But four wholesalers buy it in the same orders as other parts, and they said they would move every order that includes it, with €499,084 of sales of other parts.
 
- ![](charts/chart_2_peak_stock.png)
+ ![](charts/chart_3_retire_part.png)
 
 ### 4. Sign the Payet Agreement to Reduce Wholesaler Financial Risk
 
@@ -47,6 +47,8 @@ La Widgeterie should sign the backup agreement with Payet to reduce potential lo
  Carpentier accounts for 2.4% of company revenue but 37.6% of sales in Bourgogne-Franche-Comté. Its estimated failure probability is 25%, above the 15.8% break-even threshold for the agreement.
 
   Although Carpentier represents a small share of total company revenue, its regional sales concentration creates greater exposure. The estimated failure probability exceeds the threshold at which the expected margin protected by the agreement outweighs its cost.
+
+   ![](charts/chart_4_exposure.png)
 
   ## Recommendations:
 
@@ -57,6 +59,32 @@ La Widgeterie should sign the backup agreement with Payet to reduce potential lo
 | 3 | Build 19,897 units in July, then operate at full capacity from August to October. | Have 119,834 units in stock by 1 November to meet peak demand without overtime. | Monthly inventory against plan, late deliveries and overtime hours during November and December. | Plant Manager |
 | 4 | Retain SKU-9325 and reject the proposed discontinuation. | Preserve €262,039 in annual contribution margin, €112,039 more than the €150,000 in potential savings. | Orders and contribution margin from the four affected wholesalers. | CFO and Head of Sales |
 
+## Assumptions, limits and what needs further investigation
+
+**Assumptions**
+
+- The contribution margin is 30% of sales for every part, as provided by the company.
+- Production planning uses the average monthly demand over five years (2020–2024).
+- Decisions 3 and 4 use 2024, the latest complete year of sales data.
+- The plant can produce a maximum of 190,000 units per month.
+- The insurer estimates Carpentier's probability of failure at 25%.
+
+**Limits**
+
+- The data contains orders from wholesalers, not purchases made by end customers.
+- The €150,000 SKU savings, production capacity, contribution margin, failure probability and wholesaler survey responses are provided by the business, not calculated from sales data.
+
+**What needs further investigation**
+
+- What did the sales bonus plan reward, and why have units sold not increased despite revenue growth?
+- Would the four wholesalers actually move their orders if SKU-9325 were discontinued?
+- Could SKU-9325's production, packaging and warehouse costs be reduced without discontinuing it?
+- Which other wholesalers have a small share of company revenue but a large share of regional sales, like Carpentier?
+
+  ## About the data
+  The 396,978 order lines came from 60 monthly Excel tabs with typos and gaps: 6,541 sales were missing (1.65%), and the 20 part codes were written 60 different ways. I filled the missing sales with each part's average price that year, and checked that no order was lost when adding the regions. The data work and the formulas are in the technical documentation, and the full analysis is in the notebook in this repository.
+
+  Contact: Harshada Karande | www.linkedin.com/in/harshadakarande | 
 
   
 
