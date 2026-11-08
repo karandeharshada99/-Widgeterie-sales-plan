@@ -38,6 +38,8 @@ Keep SKU-9325. Dropping it would cost €112,039 more in margin each year than i
 
  SKU-9325 alone represents only 1.4% of revenue, so dropping it looks like a cheap cut. But four wholesalers buy it in the same orders as other parts, and they said they would move every order that includes it, with €499,084 of sales of other parts.
 
+ ![](charts/chart_2_peak_stock.png)
+
 ### 4. Sign the Payet Agreement to Reduce Wholesaler Financial Risk
 
 La Widgeterie should sign the backup agreement with Payet to reduce potential losses if Carpentier fails.
