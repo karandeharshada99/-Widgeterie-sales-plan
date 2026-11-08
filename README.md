@@ -16,6 +16,8 @@ For the remaining decisions, **retain SKU-9325**, as discontinuing it would save
 Revenue increased by 12% between 2020 and 2024, but average annual units sold declined from 2.09 million before the plan to 2.07 million after its introduction in 2022.
 
  The revenue increase reflected a higher average selling price per unit rather than an increase in units sold. Despite higher revenue, the company sold fewer units per year after the plan was introduced.
+
+ ![](charts/chart_1_revenue_units.png)
  
 
 ### 2. Start Building Inventory in July to Prepare for November's Peak Demand
@@ -25,6 +27,8 @@ Revenue increased by 12% between 2020 and 2024, but average annual units sold de
 The plant can produce a maximum of 190,000 units per month. Starting production at maximum capacity in July would leave 119,834 units in the warehouse by 1 November.
 
   July has enough spare production capacity to meet its own demand while producing additional units for August. Building inventory from July allows the plant to prepare for November's peak without starting production earlier than necessary.
+
+![](charts/chart_2_peak_stock.png)
 
 ### 3. Keep SKU-9325: dropping it saves €150K a year but loses €262K of margin
 
@@ -55,4 +59,4 @@ La Widgeterie should sign the backup agreement with Payet to reduce potential lo
   
 
 
-What explains it. SKU-9325 alone represents only 1.4% of revenue, so dropping it looks like a cheap cut. But four wholesalers buy it in the same orders as other parts, and they said they would move every order that includes it, with €499,084 of sales of other parts.
+
