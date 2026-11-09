@@ -1,4 +1,4 @@
-# Preventing a potential €127K loss by analysing SKU margin. Four decisions from 60 messy Excel Tabs.
+# Four Supply Chain Decisions from 60 Excel Tabs: Preventing a €112K Loss Through SKU Analysis.
 Python (pandas, matplotlib) · 396,978 order lines from 60 Excel tabs, 2020 to 2024 · Fictional company, simulated data · Technical documentation
 ## Executive Summary
 
