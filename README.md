@@ -4,7 +4,7 @@ Python (pandas, matplotlib) · 396,978 order lines from 60 Excel tabs, 2020 to 2
 
 La Widgeterie manufactures 20 industrial parts and sells them to 275 wholesalers across France. The company faced four decisions: whether to renew a sales bonus plan, when to build inventory for peak demand, whether to discontinue an underperforming SKU, and how to manage the risk of a wholesaler failing. These decisions required analysing five years of sales data spread across 60 Excel tabs. Taking the role of a Supply Chain Analyst, I cleaned and combined the data using Python to evaluate each decision and provide recommendations to management.
 
-**My recommendation to the COO: is to retain SKU-9325.** Discontinuing this product would save €150,000 annually but put €262,039 in contribution margin at risk, resulting in a potential net loss of €112,039 per year. The contribution margin at risk exceeds the expected cost savings, making retention the financially stronger decision. 
+**My recommendation to the COO: Is to retain SKU-9325.** Discontinuing this product would save €150,000 annually but put €262,039 in contribution margin at risk, resulting in a potential net loss of €112,039 per year. The contribution margin at risk exceeds the expected cost savings, making retention the financially stronger decision. 
 
 For the remaining decisions, **do not renew the annual sales bonus plan**, as revenue increased by 12% while average annual units sold declined from 2.09 million to 2.07 million. **Begin building inventory in July** to ensure 119,834 units are available by 1 November to meet peak demand. Finally, **sign the backup agreement with Payet** to manage Carpentier's financial risk, as the wholesaler accounts for 37.6% of regional sales.
 
