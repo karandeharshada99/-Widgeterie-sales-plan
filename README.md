@@ -4,12 +4,25 @@ Python (pandas, matplotlib) · 396,978 order lines from 60 Excel tabs, 2020 to 2
 
 La Widgeterie manufactures 20 industrial parts and sells them to 275 wholesalers across France. The company faced four decisions: whether to renew a sales bonus plan, when to build inventory for peak demand, whether to discontinue an underperforming SKU, and how to manage the risk of a wholesaler failing. These decisions required analysing five years of sales data spread across 60 Excel tabs. Taking the role of a Supply Chain Analyst, I cleaned and combined the data using Python to evaluate each decision and provide recommendations to management.
 
-**My recommendation to the COO: Do not renew the annual sales bonus plan.** Revenue increased by 12% between 2020 and 2024, but average annual units sold declined from 2.09 million before the plan to 2.07 million after its introduction in 2022. The increase in revenue reflected higher average selling prices rather than growth in units sold.
+**My recommendation to the COO: is to retain SKU-9325.** Discontinuing this product would save €150,000 annually but put €262,039 in contribution margin at risk, resulting in a potential net loss of €112,039 per year. The contribution margin at risk exceeds the expected cost savings, making retention the financially stronger decision. 
 
-For the remaining decisions, **retain SKU-9325**, as discontinuing it would save €150,000 annually but put €262,039 in contribution margin at risk. **Begin building inventory in July** to ensure 119,834 units are available by 1 November. **Sign the backup agreement with Payet** to manage Carpentier's financial risk, as the wholesaler accounts for 37.6% of sales in its region.
+For the remaining decisions, **do not renew the annual sales bonus plan**, as revenue increased by 12% while average annual units sold declined from 2.09 million to 2.07 million. **Begin building inventory in July** to ensure 119,834 units are available by 1 November to meet peak demand. Finally, **sign the backup agreement with Payet** to manage Carpentier's financial risk, as the wholesaler accounts for 37.6% of regional sales.
 
 ## Findings:
-### 1. Do Not Renew the Sales Bonus Plan: Revenue Grew, but Units Sold Declined
+
+
+### 1. Keep SKU-9325: dropping it saves €150K a year but loses €262K of margin
+
+Keep SKU-9325. Dropping it would cost €112,039 more in margin each year than it saves.
+
+ Dropping it would save €150,000 a year, but the company would lose €262,039 of margin: €112,314 on SKU-9325 itself and €149,725 on other parts that four wholesalers would move to a competitor.
+
+ SKU-9325 alone represents only 1.4% of revenue, so dropping it looks like a cheap cut. But four wholesalers buy it in the same orders as other parts, and they said they would move every order that includes it, with €499,084 of sales of other parts.
+
+ ![](charts/chart_3_retire_part.png)
+
+
+### 2. Do Not Renew the Sales Bonus Plan: Revenue Grew, but Units Sold Declined
 
  La Widgeterie should not renew the sales bonus plan or increase its annual budget. The plan did not meet the company's requirement of increasing average annual units sold.
 
@@ -20,7 +33,7 @@ Revenue increased by 12% between 2020 and 2024, but average annual units sold de
  ![](charts/chart_1_revenue_units.png)
  
 
-### 2. Start Building Inventory in July to Prepare for November's Peak Demand
+### 3. Start Building Inventory in July to Prepare for November's Peak Demand
 
  La Widgeterie should begin building inventory in July to meet November's peak demand while avoiding unnecessary early stock accumulation.
 
@@ -30,15 +43,6 @@ The plant can produce a maximum of 190,000 units per month. Starting production 
 
 ![](charts/chart_2_peak_stock.png)
 
-### 3. Keep SKU-9325: dropping it saves €150K a year but loses €262K of margin
-
-Keep SKU-9325. Dropping it would cost €112,039 more in margin each year than it saves.
-
- Dropping it would save €150,000 a year, but the company would lose €262,039 of margin: €112,314 on SKU-9325 itself and €149,725 on other parts that four wholesalers would move to a competitor.
-
- SKU-9325 alone represents only 1.4% of revenue, so dropping it looks like a cheap cut. But four wholesalers buy it in the same orders as other parts, and they said they would move every order that includes it, with €499,084 of sales of other parts.
-
- ![](charts/chart_3_retire_part.png)
 
 ### 4. Sign the Payet Agreement to Reduce Wholesaler Financial Risk
 
